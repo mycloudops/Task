@@ -1,9 +1,14 @@
 # Cognito Terraform module
 
+#Prerequisite
+ 1. AWS account with programming access.
+ 2. VM with Terraform installed.
+
 #Steps to provision Cognito resource using above Terraform scripts
 
- 1. Clone the Repository
- 2. Run the following commands in root folder to create S3 bucket and DynamoDB
+ 1. Clone the Repository.
+ 2. Edit the provider.tf and replace the AWS access key and secret key with your credentials.
+ 3. Run the following commands in root folder to create S3 bucket and DynamoDB
         a. cd backend
 	
 	b. terraform init
