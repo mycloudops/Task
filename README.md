@@ -9,7 +9,8 @@
  1. Clone the Repository.
  2. Edit the provider.tf and replace the AWS access key and secret key with your credentials.
  3. Run the following commands in root folder to create S3 bucket and DynamoDB
-        a. cd backend
+        
+	a. cd backend
 	
 	b. terraform init
 	
